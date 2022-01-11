@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* HEADER */
@@ -127,4 +128,8 @@ footer > button:hover{
     background-color: #032541;
 }
 
+#page{
+    color: #032541;
+    font-size: 1.5rem;
+}
 

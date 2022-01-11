@@ -19,6 +19,7 @@ window.onload = () => {
     });
 
     const showAllMovies = async () => {
+        document.getElementById('page').textContent = page
         try {
             const reply = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=1cc17c9ae3042dcded67807cd410be6f&page=${page}`)
             console.log(reply);
