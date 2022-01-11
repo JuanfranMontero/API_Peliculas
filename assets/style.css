@@ -50,6 +50,7 @@ header{
     cursor: pointer;
 }
 
+/* MAIN */
 main{
     display: flex;
     justify-content: center;
@@ -59,12 +60,13 @@ main{
     padding: 5rem;
 }
 
+/* MOVIES */
 #containerMovies{
     display: flex;
     justify-self: center;
     align-self: center;
     flex-wrap: wrap;
-    max-width: 60vw;
+    max-width: 80vw;
     padding: 3rem;
 }
 
@@ -73,7 +75,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 30%;
+    width: 22%;
     margin: 1rem;
     cursor: pointer;
     text-align: center;
@@ -92,6 +94,37 @@ main{
     transition: all 1s;
 }
 
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(241, 240, 240, .5);
+    height: 8%;
+    border-top: 2px solid #032541;
+}
 
+footer > button{
+    padding: .8rem 2rem;
+    color: #032541;
+    background-color: #fff;
+    margin: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: .6rem;
+    border: 2px solid #032541;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+footer > button:hover{
+    border: 1.5px solid #fff;
+    color: #fff;
+    background-color: #032541;
+}
 
 
