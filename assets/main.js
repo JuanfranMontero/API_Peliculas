@@ -1,5 +1,7 @@
 window.onload = () => {
 
+    // CONSUMO DE PETICIONES 
+
     let page = 1
     const btnAnterior = document.querySelectorAll('button')[0]
     const btnSiguiente = document.querySelectorAll('button')[1]
@@ -107,6 +109,8 @@ window.onload = () => {
             console.log(error);
         }
     }
+
+    // FIN CONSUMO PETICIONES
 
 
 }
